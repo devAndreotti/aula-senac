@@ -1,81 +1,55 @@
-# 💳 Score de Crédito Inteligente
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/python-credito?color=FFF&labelColor=4B8BBE&style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/python-credito?color=FFF&labelColor=4B8BBE&style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devAndreotti/devAndreotti?color=FFF&labelColor=4B8BBE&style=flat-square">
-</p>
+## 🚘 **Meu Cálculo de Custo Anual - Fiat Mobi Like 1.0**
 
-<div align="center">
-  <img src="./project-01.png" alt="Previsão Score" width="1000">
-</div>
+Adquiri um **Fiat Mobi Like 1.0** por **R\$49.000,00**. Dei uma entrada de **R\$10.000,00** e financiei o restante:
 
-## 📋 Sobre o Projeto
-O **Score de Crédito Inteligente** é um projeto de *machine learning* que realiza a análise e previsão do score de crédito de clientes com base em dados comportamentais e financeiros. A proposta é demonstrar como técnicas simples de *data science* e modelos supervisionados podem ser aplicadas de forma prática no contexto financeiro.
-
-Este projeto pode ser utilizado como base para soluções de análise preditiva em empresas de crédito, fintechs, ou estudos acadêmicos.
-
-## 🚀 Como Executar o Projeto
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/seuUsuario/score-credito-ml.git
-   ```
-
-2. **Instale as dependências necessárias:**
-
-   ```bash
-   pip install pandas scikit-learn
-   ```
-
-3. **Abra o Jupyter Notebook e execute as células sequencialmente:**
-
-   ```bash
-   jupyter notebook credito.ipynb
-   ```
-
-## ⚙️ Funcionalidades
-* 📊 Visualização e pré-processamento de dados de crédito
-* 🧮 Transformação automática de colunas categóricas
-* 🔍 Teste comparativo entre Random Forest e KNN
-* 🔮 Previsões personalizadas para novos clientes
-* 🧩 Geração de métricas de performance e análise de features importantes
-
-## 📂 Estrutura do Projeto
-```
-├── credito.ipynb                          # Notebook principal do projeto
-├── clientes.csv                           # Base de dados com histórico dos clientes
-├── novos_clientes.csv                     # Novos dados para previsão
-├── preview-notebook.png                   # Imagem ilustrativa do notebook
-└── README.md                              # Documentação do projeto
-```
-
-## 🔍 Resultados Obtidos
-* Acurácia média obtida pelos modelos:
-
-  * **Random Forest**: `≈ 82%`
-  * **KNN**: `≈ 75%`
-* As variáveis mais relevantes para o score foram:
-
-  * Comportamento de pagamento
-  * Gasto com cartão de crédito
-  * Renda mensal
-
-## 💪 Como Contribuir
-1. Faça um fork do projeto.
-2. Crie uma nova branch: `git checkout -b feature/nova-feature`
-3. Faça suas alterações e commit: `git commit -m 'Adiciona nova feature'`
-4. Envie para o seu fork: `git push origin feature/nova-feature`
-5. Abra um Pull Request 🚀
-
-## 📝 Nota Final
-Este projeto foi desenvolvido com o objetivo de aprendizado e experimentação com *machine learning*, e pode ser adaptado e expandido para contextos profissionais com mais dados e integrações.
-
-<br>
+* **Valor financiado:** R\$38.351,70
+* **Parcelas:** 48× de R\$1.200,00
+* **Juros mensais:** 1,8%
+* **Total a pagar:** R\$57.600,00
+* **Total de juros:** R\$19.248,30
 
 ---
 
-<p align="center">
-  Desenvolvido por <a href="https://github.com/seuUsuario">Ricardo Andreotti Gonçalves</a> 🧑‍💻
-</p>
+### 💰 **Custos Anuais Estimados (2025)**
+
+| Categoria          | Cálculo                                    | Custo Anual (R\$) |
+| ------------------ | ------------------------------------------ | ----------------- |
+| **Financiamento**  | 12× R\$1.200,00                            | **14.400,00**     |
+| **IPVA**           | 4% de R\$49.000,00                         | **1.960,00**      |
+| **Seguro**         | Estimativa média para o modelo             | **1.218,00**      |
+| **Combustível**    | Média mensal de 76,1L × R\$6,10 × 12 meses | **5.570,52**      |
+| **🔸 Total Geral** | —                                          | **R\$23.148,52**  |
 
 ---
+
+### ⏱️ **Meu Custo em Horas de Trabalho**
+
+Atualmente, recebo **R\$6,36 por hora trabalhada**. Considerando esse valor, calculei quanto tempo preciso trabalhar para bancar os custos anuais do carro:
+
+| Informação               | Valor                     |
+| ------------------------ | ------------------------- |
+| **Valor por hora**       | R\$6,36                   |
+| **Custo total anual**    | R\$23.148,52              |
+| **Horas necessárias**    | R\$23.148,52 ÷ R\$6,36    |
+|                          | **≈ 3.639 horas**         |
+| **Equivalente em meses** | 220h/mês ≈ **16,5 meses** |
+
+---
+
+### 📊 **Distribuição dos Custos em Horas de Trabalho**
+
+| Categoria        | Custo (R\$)   | Horas Trabalhadas |
+| ---------------- | ------------- | ----------------- |
+| 💳 Financiamento | 14.400,00     | 2.264 h           |
+| 🚘 IPVA          | 1.960,00      | 308 h             |
+| 🛡️ Seguro       | 1.218,00      | 191 h             |
+| ⛽ Combustível    | 5.570,52      | 876 h             |
+| **TOTAL**        | **23.148,52** | **3.639 h**       |
+
+---
+
+### 🧠 **Minha Reflexão Final**
+
+> Para manter esse carro por apenas **1 ano**, preciso trabalhar o equivalente a **16 meses inteiros**, considerando um salário mínimo.
+> E isso sem contar **manutenções, multas ou imprevistos**.
+> Foi um ótimo exercício para refletir sobre os custos reais de se ter um veículo.
